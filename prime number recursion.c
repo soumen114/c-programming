@@ -7,9 +7,9 @@ int CheckPrime(int i,int num)
     else
         if(num%i==0)
             return 1;
-    else{
+   /* else{
         return CheckPrime(i+1,num);
-    }
+    }*/
 }
 int main()
 {
